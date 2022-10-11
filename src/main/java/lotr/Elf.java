@@ -1,6 +1,6 @@
 package lotr;
 
-class Elf extends Character{
+public class Elf extends Character{
    public Elf(){
       this.hp = 10;
       this.power = 10;

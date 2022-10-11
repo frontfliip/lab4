@@ -10,6 +10,7 @@ public class GameManager {
    public void fight(Character c1, Character c2) {
       if(c1 instanceof Hobbit && c2 instanceof Hobbit){
          System.out.println("Two Hobbits drown in their own tears");
+         return;
       }
       System.out.println("The fight is about to start!");
       System.out.println(c1.toString());

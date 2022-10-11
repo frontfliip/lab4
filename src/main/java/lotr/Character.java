@@ -1,11 +1,9 @@
 package lotr;
 
-class Character {
+public abstract class Character {
   protected int power;
   protected int hp;
-  public void kick(Character enemy) {
-
-  }
+  abstract public void kick(Character enemy);
 
   @Override
   public String toString() {
